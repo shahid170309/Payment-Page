@@ -4,16 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="icon" href="download.jpg">
-<style>
-    body{
-        background-image: url(Suhana1.jpg);
-        background-attachment: fixed;
-        background-size: contain;
-        background-size: 100% 100%;
-        }
-</style>
-</head>
-<body style="background-color: #ff78;">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body >
+
+    <div id="total">
+
+    <form >
+        <h2>Step 1: Your details</h2>
+        
+        <div  class="divbox">
+            <label for="fn"> Name</label>
+            <input type="text" id="ln"  required placeholder="First name and Last Name" style="margin: auto;"><br>
+        </div>
+
+        <div class="divbox">
+                <label for="mail">Email</label>
+                <input type="email" placeholder="Email" required autocomplete="on"><br>
+        </div>
+        <div class="divbox">
+            <label for="pwd">Phone</label>
+            <input type="number" id="pwd" placeholder="Mobile Number" required><br>
+        </div>
+        <!-- <input type="file" multiple><br> -->
+        <!-- <input type="submit" value="Submit"> -->
+    
+
+    <div>
+    
+        <h2>Step 2 : Delivery Address</h2>
+
+        <div class="divbox">
+            <label for="area">Address</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        </div>
+
+        <div class="divbox">
+            <label for="pin">PinCode</label>
+            <input type="pincode" id="pin">
+        </div>
+    
+    </div>
+    <div >
    
+        <h2>Step 3: Card Details</h2>
+
+        <div class="divbox" >
+        <h3>Card Type</h3>
+        <input type="radio" name="blank">
+        <label for="card">Visa</label>
+        <input type="radio" name="blank">
+        <label for="card">AmEx</label>
+        <input type="radio" name="blank">
+        <label for="card">MasterCard</label><br>
+        </div>
+
+        <div class="divbox">
+        <label for="carnumber">Card Number</label>
+        <input type="number"><br>
+        </div>
+
+        <div class="divbox">
+        <label for="security">Security Card</label>
+        <input type="number">
+        </div>
+
+        <div class="divbox">
+        <label for="mname">Name on Card</label>
+        <input type="text" placeholder="Exact name on the card">
+        </div>
+    </div>
+    <br>
+    <input type="submit" value="BUY IT" >
+    </form>
+</div>
+</body>
 </html>
