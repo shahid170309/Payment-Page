@@ -1,0 +1,31 @@
+
+#total{
+    background-color: greenyellow;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 50%;
+    /* height: 100%; */
+    
+    
+}
+.divbox{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(33, 206, 90);
+}
+input{
+    background-color: black; 
+    color: white; 
+    border-radius: 10px; 
+    padding: 10px;
+}
+body{
+    
+    background-image: url(background.webp);
+    
+    backdrop-filter: sepia(0%);
+}
+
